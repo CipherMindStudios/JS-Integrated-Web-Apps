@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#game-board {
+  margin-top: 30px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  line-height: 100px;
+  font-size: 48px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color: #ddd;
+}
+
+.card-1 {
+  color: #ff4d4d;
+}
+
+.card-2 {
+  color: #4da6ff;
+}
+
+.card-3 {
+  color: #4dff4d;
+}
+
+.card-4 {
+  color: #ffff4d;
+}
